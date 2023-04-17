@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+}
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu a{
+    font-weight: bold;
+    color: rgb(69, 57, 140);
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.banner{
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto 0px auto;
+}
+
+.banner img{
+    width: 65%;
+    height: 65%;
+}
+
+.corpo{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 10px 17.5% auto 17.5%;
+}
+
+.corpo p{
+    text-align:start;
+    font-size: 14pt;
+}
+
+.rodape{
+    margin-top: 2em;
+}
+
+.rodape p{
+    text-align: center;
+}
